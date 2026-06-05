@@ -3,3 +3,10 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .DS_Store
+
+# Datos: se descargan con el notebook, no se versionan
+data/*.csv
+data/*.zip
+
+# Configuracion local de herramientas
+.claude/
